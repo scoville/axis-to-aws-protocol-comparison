@@ -1,0 +1,30 @@
+Loading filename: video23-04-13_21-50-27-63_00001.mkv starts at 2023-04-13 21:50:27.630000.  
+./sftp-3spost-30spost-30spulse/output/video23-04-13_21-50-27-63_00001.mkv had: 2322 frames which is 77.40 seconds duration.
+Loading filename: video23-04-13_21-52-01-19_00002.mkv starts at 2023-04-13 21:52:01.190000.  
+The previous file ended on timestamp 2023-04-13 21:51:45.030000 so we lost 0 days 00:00:16.160000 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_21-52-01-19_00002.mkv had: 4480 frames which is 149.33 seconds duration.
+Loading filename: video23-04-13_21-55-01-20_00003.mkv starts at 2023-04-13 21:55:01.200000.  
+The previous file ended on timestamp 2023-04-13 21:54:30.523333 so we lost 0 days 00:00:30.676667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_21-55-01-20_00003.mkv had: 3730 frames which is 124.33 seconds duration.
+Loading filename: video23-04-13_21-57-31-19_00004.mkv starts at 2023-04-13 21:57:31.190000.  
+The previous file ended on timestamp 2023-04-13 21:57:05.533333 so we lost 0 days 00:00:25.656667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_21-57-31-19_00004.mkv had: 4480 frames which is 149.33 seconds duration.
+Loading filename: video23-04-13_22-00-31-17_00005.mkv starts at 2023-04-13 22:00:31.170000.  
+The previous file ended on timestamp 2023-04-13 22:00:00.523333 so we lost 0 days 00:00:30.646667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_22-00-31-17_00005.mkv had: 4480 frames which is 149.33 seconds duration.
+Loading filename: video23-04-13_22-03-31-12_00006.mkv starts at 2023-04-13 22:03:31.120000.  
+The previous file ended on timestamp 2023-04-13 22:03:00.503333 so we lost 0 days 00:00:30.616667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_22-03-31-12_00006.mkv had: 1485 frames which is 49.50 seconds duration.
+Loading filename: video23-04-13_22-04-31-15_00007.mkv starts at 2023-04-13 22:04:31.150000.  
+The previous file ended on timestamp 2023-04-13 22:04:20.620000 so we lost 0 days 00:00:10.530000 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_22-04-31-15_00007.mkv had: 5230 frames which is 174.33 seconds duration.
+Loading filename: video23-04-13_22-08-01-16_00008.mkv starts at 2023-04-13 22:08:01.160000.  
+The previous file ended on timestamp 2023-04-13 22:07:25.483333 so we lost 0 days 00:00:35.676667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_22-08-01-16_00008.mkv had: 2233 frames which is 74.43 seconds duration.
+Loading filename: video23-04-13_22-09-31-18_00009.mkv starts at 2023-04-13 22:09:31.180000.  
+The previous file ended on timestamp 2023-04-13 22:09:15.593333 so we lost 0 days 00:00:15.586667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_22-09-31-18_00009.mkv had: 4480 frames which is 149.33 seconds duration.
+Loading filename: video23-04-13_22-12-31-20_00010.mkv starts at 2023-04-13 22:12:31.200000.  
+The previous file ended on timestamp 2023-04-13 22:12:00.513333 so we lost 0 days 00:00:30.686667 seconds of video.
+./sftp-3spost-30spost-30spulse/output/video23-04-13_22-12-31-20_00010.mkv had: 1889 frames which is 62.97 seconds duration.
+Gaps were [16, 30, 25, 30, 30, 10, 35, 15, 30]

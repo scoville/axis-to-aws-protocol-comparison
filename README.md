@@ -4,17 +4,17 @@ As discussed in our blog **[INSERT LINK HERE]**, we compared FTP, SFTP, SMB (2.0
 
 The summary of results can be found here:
 
-HTTPS - occasionally dropped clips 
-SFTP - occasionally dropped clips regardless of region
-SMB - occasionally dropped clips when the server was in a different region, when in same region did not drop clips but had small gaps between clips
+- **HTTPS** - occasionally dropped clips 
+- **SFTP** - occasionally dropped clips regardless of region
+- **SMB** - occasionally dropped clips when the server was in a different region, when in same region did not drop clips but had small gaps between clips
+
 [Kvstreamer](https://kvstreamer.scoville.jp/) - no dropped video footage, resilience to brief network outages 
 
-And not presented here is FTP and HTTP as these protocols are insecure.
+- Not presented here is **FTP** and **HTTP** as these protocols are insecure.
 
 **Kvstreamer was the only option to provide a reliable, secure and uninterrupted stream.** 
 
 ## Axis Documentation on Recording on the device 
-
 
 Axis document their natively supported protocols here: https://help.axis.com/en-us/axis-os#network-protocols
 

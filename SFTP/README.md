@@ -1,7 +1,10 @@
  
 # Environment
 - AXIS Device: Latest firmware 11.3.70 on AXIS P7316 Video Encoder
-- EC2 SFTP Sever: EC2 Instance: Ubuntu Server 22.04 LTS (HVM), ami-007855ac798b5175e (64-bit (x86)) / ami-0c6c29c5125214c77 (64-bit (Arm)) with EBS gp2 storage, t2.micro in Unlimited mode to avoid risk of CPU throttling.
+- AWS EC2 SFTP Sever: EC2 Instance: Ubuntu Server 22.04 LTS (HVM), ami-007855ac798b5175e (64-bit (x86)) / ami-0c6c29c5125214c77 (64-bit (Arm)) with EBS gp2 storage, t2.micro in Unlimited mode to avoid risk of CPU throttling.
+- We based the EC2 instance in another region (us-east-1) to the device (ap-northeast-1) for two reasons:
+  - To simulate non-ideal networking conditions (high latency), as a reliable streaming method requires robustness to momentary network issues and high latency connections 
+  - us-east-1 is typically the cheapest region for EC2 instances, so is often a desirable choice
 
 # SFTP Server Setup
 
@@ -15,6 +18,7 @@
 In System > Events > Recipients:
 
 ```
+Type: SFTP
 Port: 22
 Folder: data/
 Username: sftp_user
@@ -46,8 +50,13 @@ prebuffer and postbuffer can be adjusted as desired.
 # Results
 
 We tried 30 second interval pulse event with:
+
 - 3 second pre buffer and 0 seconds post buffer ([./3pre-0post-30pulse.txt](./3pre-0post-30pulse.txt))
 - 3 seconds pre buffer and 30 seconds post buffer ([./3pre-30post-30pulse.txt](./3pre-30post-30pulse.txt))
 - 30 seconds pre buffer and 0 seconds post buffer ([./30pre-0post-30pulse.txt](./30pre-0post-30pulse.txt))
 
 And all showed huge gaps (5 to 30 seconds) between each clip making this solution impractical for streaming video to the cloud securely.
+
+We found the same issue when using a server in the same region as the device, and guess these issues may be due to SFTP protocol being to computationally expensive for reliable and consistent uploads.
+
+**We concluded this was not a reliable way to stream video to the cloud.**

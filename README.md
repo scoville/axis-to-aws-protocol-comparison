@@ -1,4 +1,6 @@
-# Comparing supported protocols on network 
+Dislaimer: This repository is not affiliated with, endorsed by, or otherwise connected to AWS or AXIS.
+
+# Comparing supported protocols on AXIS devices to send video streams over the network to AWS 
 
 As discussed in our blog **[INSERT LINK HERE]**, we compared FTP, SFTP, SMB (2.0/3.0), HTTPS, RTSP and the Kvstreamer ACAP to assess ability to provide an uninterupted cloud stream.
 

@@ -10,7 +10,7 @@ The summary of results can be found here:
 - **SFTP** - occasionally dropped clips regardless of region
 - **SMB** - occasionally dropped clips when the server was in a different region, when in same region did not drop clips but had small gaps between clips
 
-[Kvstreamer](https://kvstreamer.scoville.jp/) - no dropped video footage, resilience to brief network outages 
+[KVstreamer](https://kvstreamer.scoville.jp/?utm_source=github&utm_medium=repo&utm_campaign=organic&utm_id=axis-to-aws-protocol-comparison) - no dropped video footage, resilience to brief network outages 
 
 - Not presented here is **FTP** and **HTTP** as these protocols are insecure.
 
